@@ -1,0 +1,33 @@
+/* styles.css */
+
+.upload-image-container {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .upload-image-container h2 {
+    text-align: center;
+  }
+  
+  .upload-image-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .upload-image-container input[type='file'] {
+    margin-bottom: 1rem;
+  }
+  
+  .upload-image-container button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .upload-image-container button:hover {
+    background-color: #0056b3;
+  }
+  
